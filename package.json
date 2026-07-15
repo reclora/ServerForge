@@ -1,1 +1,14 @@
-
+{
+  "name": "serverforge",
+  "version": "1.0.0",
+  "description": "ServerForge - Build Discord servers in seconds.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  }
+}
